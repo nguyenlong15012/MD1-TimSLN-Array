@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [-3,5,20,50,2,10]
+    let max = numbers[0]
+    let index = 0;
+    let i;
+
+    for (i=0;i<numbers.length;i++){
+        if(numbers[i]>max){
+            max = numbers[i];
+            index = i;
+        }
+    }
+    document.write('max : ' + max + ','+ ' ' +  'vị trí: ' + '' + index);
+    // document.write(numbers[index]);
+</script>
+</body>
+</html>
